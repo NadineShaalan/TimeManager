@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="hersh.khan.shaalan.timemanager.MainActivity" >
+    
+    <!-- EACH OF THE FRAGMENTS/just insert them into the correct layout, etc -->
+    
+    <fragment 
+        android:id="@+id/alarmFragment" 
+        android:name="hersh.khan.shaalan.timemanager.AlarmMainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/alarm_fragment"/>
+     <!-- 
+    <fragment
+        android:id="@+id/todoFragment" 
+        android:name="hersh.khan.shaalan.timemanager.TodoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/todo_fragment"/>
+    
+    <fragment
+        android:id="@+id/countdownFragment" 
+        android:name="hersh.khan.shaalan.timemanager.CountdownFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/countdown_fragment"/>
+    
+    <fragment
+        android:id="@+id/timerFragment" 
+        android:name="hersh.khan.shaalan.timemanager.timerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/timer_fragment"/> --> 
+
+</RelativeLayout>
